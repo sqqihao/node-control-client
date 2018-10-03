@@ -1,22 +1,22 @@
-#Requirement:
+# Requirement:
 - 	nodeJS
 -    mt-files-downloader
 -    screenshot-desktop
 
-#安装
+# 安装
 -	npm install 
 
-#客户端配置 conf.js
+# 客户端配置 conf.js
 -	url:请求的任务地址，  返回一个JSON
 -	host:域名或者IP配置
 -	path:客户端返回给服务器的POST地址
 
 
 
-#服务端配置 index.php
+# 服务端配置 index.php
 ```http://127.0.0.1/node-mstsc/server/index.php```
 
-#返回的数据结构：
+# 返回的数据结构：
 ```
 {
 	"command" : "dir c:",
