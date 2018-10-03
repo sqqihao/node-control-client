@@ -16,10 +16,13 @@ data  数据结构
 **/
 function processData( data ) {
 	var IPv4Mac = "";
-	var eth0 = os.networkInterfaces().WLAN || os.networkInterfaces().eth0;
-	for(var i=0;i<eth0.length;i++){
-		if(eth0[i].family=='IPv4'){
-			IPv4Mac = eth0[i].mac;
+	var devices = os.networkInterfaces();
+	for(var p in devices) {
+		var eth = devices[p];
+		for(var i=0;i<eth.length;i++){
+			if(eth[i].family=='IPv4'){
+				IPv4Mac += eth[i].mac;
+			}
 		}
 	}
 	console.log(IPv4Mac);
@@ -65,7 +68,6 @@ function postData( data ) {
 	var data = querystring.stringify(data);
 	const options = {
 		hostname: conf.host,
-		port: 80,
 		path: conf.path,
 		method: 'POST',
 		headers: {
@@ -105,7 +107,7 @@ function main() {
 			try {
 				const parsedData = JSON.parse(rawData);
 				console.log(parsedData);
-				//processData(parsedData);
+				processData(parsedData);
 			} catch (e) {
 				console.error(e.message);
 			}

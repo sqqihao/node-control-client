@@ -1,1 +1,1 @@
-node "client/index.js";
+node "./client/index.js"
