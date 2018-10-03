@@ -28,9 +28,9 @@
 }
 ```
 
--command [非必须]客户端执行的命令， 数据的输出会在服务器的contents目录下
--screenshot [非必须]请求客户端截屏
--download [非必须]需要下载的http路径地址
--filename [非必须]下载成功的文件重命名
--downloadAndRun [非必须] 下载完毕并执行某程序
--timeout [非必须] 默认重新执行的代码的时间1小时
+-	command [非必须]客户端执行的命令， 数据的输出会在服务器的contents目录下
+-	screenshot [非必须]请求客户端截屏
+-	download [非必须]需要下载的http路径地址
+-	filename [非必须]下载成功的文件重命名
+-	downloadAndRun [非必须] 下载完毕并执行某程序
+-	timeout [非必须] 默认重新执行的代码的时间1小时
