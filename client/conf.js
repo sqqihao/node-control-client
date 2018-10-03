@@ -1,0 +1,1 @@
+{"url":"http://127.0.0.1/node-mstsc/server/index.php","host":"127.0.0.1","path":"/node-mstsc/server/post.php"}

@@ -1,0 +1,27 @@
+ ������ C �еľ��� Windows
+ ������к��� 5EBF-771D
+
+ C:\ ��Ŀ¼
+
+2018/08/19  01:59    <DIR>          AppData
+2018/06/07  13:48    <DIR>          cryption
+2018/07/18  21:16    <DIR>          Downloads
+2018/03/05  22:03    <DIR>          GoogleChrome_x86_41.0.2272.89_PortableSoft
+2017/08/24  06:25    <DIR>          Intel
+2018/03/15  17:35    <DIR>          MountTaiSoftware
+2018/05/24  13:36    <DIR>          MyDrivers
+2018/05/15  13:48    <DIR>          nodec_compile_to_exe
+2018/05/24  16:18    <DIR>          NVIDIA
+2018/04/12  07:38    <DIR>          PerfLogs
+2018/07/21  12:17    <DIR>          Program Files
+2018/09/11  14:00    <DIR>          Program Files (x86)
+2018/05/01  12:53    <DIR>          Python26
+2018/07/19  11:11    <DIR>          Python27
+2017/08/24  12:21    <DIR>          QLDownload
+2018/03/18  16:45    <DIR>          Sandbox
+2017/08/24  12:07    <DIR>          ShenYou
+2018/09/18  09:38    <DIR>          temp
+2018/05/15  23:29    <DIR>          Users
+2018/10/02  01:22    <DIR>          Windows
+               0 ���ļ�              0 �ֽ�
+              20 ��Ŀ¼ 10,753,286,144 �����ֽ�
